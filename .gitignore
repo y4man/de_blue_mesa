@@ -1,0 +1,23 @@
+# Kill-sound clips: third-party audio, not redistributed.
+# Drop your own into source/sounds/<name>_source.wav and re-run the generator.
+*.mp3
+source/sounds/
+cstrike/sound/bluemesa/v1/death.wav
+cstrike/sound/bluemesa/v1/knife.wav
+cstrike/sound/bluemesa/v1/grenade.wav
+
+# Packaged bundles (contain the clips above)
+cstrike.zip
+MANIFEST.sha256
+
+# Compile output and intermediates (the playable map lives in cstrike/maps/)
+build/*
+!build/de_blue_mesa_v2.log
+
+# Third-party compiler: download from https://github.com/seedee/SDHLT
+tools/sdhlt/
+tools/sdhlt_v130.zip
+
+# Python
+__pycache__/
+*.pyc

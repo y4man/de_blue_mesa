@@ -1,0 +1,168 @@
+{
+  "status": "PASS: static source checks only",
+  "map": "de_blue_mesa_v2",
+  "brush_count": 668,
+  "entity_count_including_worldspawn": 119,
+  "custom_texture_count": 87,
+  "missing_textures": [],
+  "convex_brushes_with_positive_volume": 668,
+  "spawn_counts": {
+    "T": 16,
+    "CT": 16
+  },
+  "all_spawns_clear_and_supported": true,
+  "all_spawns_inside_correct_buy_zones": true,
+  "six_sided_source_enclosure": true,
+  "walkable_floor_levels": 80,
+  "descent_shafts": 4,
+  "descents_reaching_site_b": [
+    1,
+    2,
+    3
+  ],
+  "objective_count": 2,
+  "site_b_floor_height": -288.0,
+  "conservative_ground_route_checks": {
+    "T to A": {
+      "all_16_spawns_reachable": true,
+      "floor_height": 0,
+      "estimated_shortest_path_units": [
+        2987,
+        3228
+      ],
+      "seconds_at_250_units_per_second": [
+        11.9,
+        12.9
+      ]
+    },
+    "CT to A": {
+      "all_16_spawns_reachable": true,
+      "floor_height": 0,
+      "estimated_shortest_path_units": [
+        1648,
+        1958
+      ],
+      "seconds_at_250_units_per_second": [
+        6.6,
+        7.8
+      ]
+    },
+    "T to B": {
+      "all_16_spawns_reachable": true,
+      "floor_height": -288.0,
+      "estimated_shortest_path_units": [
+        2973,
+        3283
+      ],
+      "seconds_at_250_units_per_second": [
+        11.9,
+        13.1
+      ]
+    },
+    "CT to B": {
+      "all_16_spawns_reachable": true,
+      "floor_height": -288.0,
+      "estimated_shortest_path_units": [
+        1850,
+        2160
+      ],
+      "seconds_at_250_units_per_second": [
+        7.4,
+        8.6
+      ]
+    }
+  },
+  "lanes": {
+    "A": {
+      "entrances": [
+        "Long Doors",
+        "Short A",
+        "Hermanos west door",
+        "CT Gate"
+      ],
+      "cut_off_when_all_shut": true,
+      "each_entrance_open_alone_works": true
+    },
+    "B": {
+      "entrances": [
+        "Mid Doors",
+        "Scrapyard Gate"
+      ],
+      "cut_off_when_all_shut": true,
+      "each_entrance_open_alone_works": true
+    }
+  },
+  "rv_interior_standing_clearance": true,
+  "skybox_faces": 6,
+  "all_resource_list_files_present": true,
+  "overview": {
+    "image": "1024x768 8-bit BMP",
+    "zoom": 1.7,
+    "origin": [
+      0.0,
+      0.0,
+      -288.0
+    ],
+    "rotated": 1,
+    "units_per_pixel": 4.706,
+    "spawns_and_sites_on_drawn_map": 34
+  },
+  "sound": {
+    "ambient_generic_count": 20,
+    "distinct_files": [
+      "ambience/computalk1.wav",
+      "ambience/drips.wav",
+      "ambience/flies.wav",
+      "ambience/industrial1.wav",
+      "ambience/labdrone2.wav",
+      "ambience/lv_neon.wav",
+      "ambience/tankidle1.wav",
+      "ambience/wind1.wav",
+      "ambience/wind2.wav",
+      "bluemesa/v1/death.wav",
+      "bluemesa/v1/grenade.wav",
+      "bluemesa/v1/knife.wav",
+      "bluemesa/v1/mesa_radio.wav",
+      "fans/fan4.wav"
+    ],
+    "shipped_with_the_map": [
+      "bluemesa/v1/death.wav",
+      "bluemesa/v1/grenade.wav",
+      "bluemesa/v1/knife.wav",
+      "bluemesa/v1/mesa_radio.wav"
+    ],
+    "played_on_every_death": [
+      "bluemesa/v1/death.wav"
+    ],
+    "played_when_the_bomb_explodes": [],
+    "all_enclosed_and_clear_of_solids": true,
+    "door_sounds": [
+      {
+        "movesnd": "2",
+        "stopsnd": "0"
+      },
+      {
+        "movesnd": "6",
+        "stopsnd": "1"
+      }
+    ],
+    "files_confirmed_in_game_install": false
+  },
+  "clean": {
+    "slots_where_items_get_lost": 0,
+    "crawl_spaces": 0,
+    "plant_zone_stops_below_rv_roof": true,
+    "exposed_undrawn_faces": 0
+  },
+  "not_verified": [
+    "CSG/BSP compilation",
+    "VIS visibility and engine limits",
+    "RAD lighting",
+    "In-game loading, collisions, doors, ladders and objective behavior",
+    "Skybox orientation in GoldSrc",
+    "Match balance, frame rate and bot navigation",
+    "Ambient sound levels and mix in-game",
+    "Overview alignment in-game (the mapping is checked against stock overviews, not yet on this map)"
+  ],
+  "compiled_bsp_included": true
+}

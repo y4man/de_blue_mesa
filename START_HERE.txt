@@ -1,0 +1,103 @@
+BLUE MESA - CUSTOM COUNTER-STRIKE 1.6 MAP  (version 1.0.1)
+A MAP BY YAMAN
+
+STATUS: COMPILED AND PLAYABLE. The .BSP is included.
+
+An original Breaking Bad-inspired desert bomb-defusal map: RV yard, motel
+row, a family residence, a chicken stop, a fuel stop, an industrial laundry
+- and an underground superlab beneath it.
+
+NEW IN 1.0.1 - NO MORE SEE-THROUGH WALLS (map name de_blue_mesa_v2)
+  - The backs and edges of signs and pictures were left undrawn and showed
+    as flat smears you could see players through. All 230 are fixed.
+
+NEW IN 1.0 - BALANCED FOR BOTH TEAMS AT BOTH SITES
+  - CT setup time is now about even: 4.8 s at A, 4.4 s at B (it was 5.1 s
+    and 2.7 s, so A favoured CTs and B favoured Ts).
+  - A one-way CT drop hatch into B beside the laundry's north door: step
+    over the striped kerb, land on a crate, about 17 HP. No way back up.
+  - The B plant zone moved north, around the reactor, with a crate for cover.
+  - The stairwell rail can no longer be hopped (an invisible clip).
+  - A car wreck in the middle of Long breaks the long AWP line.
+  - The CT Gate moved 128 units west.
+  - Credits: "A MAP BY YAMAN" boards at both spawns, a YAMAN plate on the RV.
+  - The map is now called de_blue_mesa_v2, so other PCs update themselves:
+    anyone who joins your game downloads it automatically. Only the PC that
+    hosts needs these files (and the kill-sound plugin).
+
+NEW IN 0.9 - CLEAN AND EASY TO FIND YOUR WAY
+  - 21 painted direction signs: follow orange A or teal B from anywhere.
+  - Tall landmarks over the walls: a water tower (A side), the laundry
+    smokestack (B), a fuel pylon (east route), a raised Hermanos sign (mid).
+  - Each route has its own walls: red rock on Long, whitewash in mid,
+    corrugated metal on the east route, timber on the CT side.
+  - Clean-up: no gaps that swallow guns or the bomb, no crawl-space under
+    the RV, doorways cleared, dead-end pockets filled, dark spots lit.
+  - The bomb can no longer be planted on the RV roof.
+  - Kill sounds: knife kills and HE grenade kills each play their own clip
+    (with the plugin in tools/amxx/); every other death plays the death clip.
+
+NEW IN 0.8 - DEATH AND BOMB SOUNDS
+  - Whenever any player dies, a 1.2-second clip plays to everyone.
+  - When the bomb explodes, a 2-second clip plays to everyone.
+  - On knife kills, a 1.2-second clip plays to everyone (needs the plugin).
+    (0.9 moved the bomb clip to HE grenade kills; see above.)
+
+NEW IN 0.7 - MUSIC
+  - A boombox in the RV plays "Blue Mesa Radio", an original desert-western
+    track written for this map (not the show's theme, which is copyrighted).
+    Shoot the radio to stop it.
+
+NEW IN 0.6 - TUNED FOR 10v10 (20 PLAYERS)
+  - A second full-width way into B: the blockhouse ladder is now a wide,
+    smooth stair, like the main one. B has two group entrances and a lift.
+  - The lift carries four players instead of two.
+  - Hermanos's front windows can be shot out, so CTs can hold mid.
+  - The Scrapyard Gate is its full width (a post was blocking it).
+
+NEW IN 0.5 - REBUILT FOR STRATEGY
+  - Lanes and chokepoints instead of open desert. Three T routes:
+      Long A  - west canyon, through Long Doors
+      Mid     - the road, through Mid Doors, splitting to Short A (through
+                the law office) and the B alley (to the laundry)
+      East    - past the fuel stop, through the Scrapyard Gate
+    CTs reach A through a fenced CT Gate or through Hermanos.
+  - Cover where the ground was bare: wrecks, containers, barriers, a shed,
+    and a ladder onto the RV roof for high ground at A.
+  - The lift: step on, press E on the washer, about 2.5 s down. Yellow call
+    buttons on both floors. It stays where you leave it.
+  - The stair: one wide, straight, smooth flight directly ahead of the
+    laundry's south door, with rails and a sign.
+
+*** BOMB SITE B IS UNDERGROUND ***
+The superlab sits 288 units below the laundry. Three ways down: the stair
+ahead of the laundry's south door, the lift, and the east stair inside the
+blockhouse to the south-east. CTs can also drop through the hatch beside
+the laundry's north door (one way only).
+
+TO PLAY
+  1. Close CS 1.6.
+  2. (Only the PC that hosts needs this. PCs that join download it.)
+  3. Merge this package's cstrike folder into your game's cstrike folder.
+     (cstrike.zip contains exactly those files if you prefer to unzip it.)
+  4. In the CS 1.6 console:  map de_blue_mesa_v2
+
+TO LOOK FIRST
+  preview/layout.png      - top-down layout with the chokepoints named
+  preview/lanes.png       - Long Doors, Mid Doors, both stairs, the lift, the hatch
+  preview/overview.png    - the in-game overview image
+  preview/superlab.png    - bomb site B, underground
+
+BUILD STATE
+  Compiles clean with SDHLT 1.3.0 - no leaks, no tool errors.
+  AllocBlock 17/64, clipnodes 6265/32767, world faces 5742/32768.
+  The validator proves the lanes: with a site's entrances shut, Ts cannot
+  reach it; through any one of them alone, they can. It also checks all
+  descents to B, the overview, and every sound emitter.
+  Not yet verified in-game: how the chokepoints play, the lift, lighting,
+  the sound mix, and the balance: CTs get 4.8 s at A, 4.4 s at B.
+  See the playtest checklist in README.md.
+
+All geometry is editable in a GoldSrc-capable Hammer or J.A.C.K. editor,
+or regenerate everything with: python3 source/generate_map.py
+Full details, compile instructions and the playtest checklist: README.md

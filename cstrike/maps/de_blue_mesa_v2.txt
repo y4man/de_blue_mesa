@@ -1,0 +1,49 @@
+BLUE MESA
+A map by YAMAN
+Bomb / Defuse
+
+A desert roadside compound inspired by the atmosphere of Breaking Bad.
+
+Counter-Terrorists:
+Prevent the Terrorists from bombing the RV compound or the superlab buried
+beneath the industrial laundry. Defuse any planted bomb.
+
+Terrorists:
+Plant and detonate the bomb at Site A (RV yard) or Site B (the superlab).
+
+FIND YOUR WAY
+Follow the orange A and teal B signs. Landmarks over the walls: the water
+tower is on the A side, the smokestack is on the laundry above B.
+
+ROUTES
+  Long A  - the west canyon, through Long Doors.
+  Short A - up mid, through Mid Doors, through the law office.
+  B       - up mid, through Mid Doors, along the alley to the laundry.
+  East    - past the fuel stop, through the Scrapyard Gate.
+
+SITE B IS UNDERGROUND.
+The laundry at ground level is the way in, not the objective. The lab sits
+288 units below it and has three ways down:
+  - the wide stair straight ahead of the laundry's south door
+  - the lift, which fits four: step on the washer car and press USE;
+    yellow call buttons on both floors fetch it
+  - the east stair, inside the blockhouse by the scrapyard, which reaches
+    the lab without entering the laundry
+Plus a one-way drop for defenders: the hazard-striped hatch beside the
+laundry's north door lands on a crate on the plant floor. The fall costs
+about 17 HP. There is no way back up through it.
+Listen for the lift: its motor can be heard on both floors.
+
+Other notes:
+There are two bomb targets. A ladder at the back of the RV reaches its
+roof. The motel links mid to the canyon; Hermanos links mid to the A yard
+and the CT side, and its front windows can be shot out. The shop has an
+automatic sliding door. The vending machine, the lab glassware and the RV
+windows are breakable - and so is the radio in the RV, if you've heard
+enough of it.
+
+Built for up to 10 versus 10.
+Spawn support: 16 players per team, 32 total.
+
+Original custom geometry, textures and artwork.
+Map by YAMAN.
